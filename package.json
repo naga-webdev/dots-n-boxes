@@ -1,0 +1,31 @@
+{
+  "name": "dots-n-boxes",
+  "version": "1.0.0",
+  "description": "simple game of dots-and-boxes",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/successnaga/dots-n-boxes.git"
+  },
+  "keywords": [
+    "game",
+    "dots",
+    "and",
+    "boxes",
+    "project",
+    "fun"
+  ],
+  "author": "naga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/successnaga/dots-n-boxes/issues"
+  },
+  "homepage": "https://github.com/successnaga/dots-n-boxes#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
