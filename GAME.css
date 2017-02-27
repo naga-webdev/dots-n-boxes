@@ -1,0 +1,182 @@
+﻿        *{
+            font-family:'Times New Roman';
+        }
+body {
+    background-image:url(image/bg.png);
+    
+}
+
+
+
+        .users {
+            position:relative;
+            height:90px;
+            width:90px;
+        }
+
+        .scores {
+            position:static;
+            width:40px;
+            border:ridge;
+            margin-left:25px;
+            margin-top:30px;
+            text-align:center;
+        }
+
+        #dhline {
+        width:38px;
+        height:2px;
+
+        }
+        #dvline {
+        width:2px;
+        height:34px;
+        margin-top:0px;
+	        margin-left:4px;
+        }
+
+        #gameName{
+	        text-align: center;
+	        color:#1568ea;
+        }
+        #main {
+            height: 30px;
+            border-spacing: 12px;
+            border-collapse: separate;
+        }
+        #main td:nth-child(odd) {
+           font-size:20px;
+            font-weight:bold;
+        }
+
+	#line,#vline,#dvline {
+          	display: -webkit-flex;
+            display:flexbox;
+            -webkit-justify-content: center;
+            -webkit-align-items: center;
+}
+    
+       #line {
+	     position: absolute;
+            height:2px;
+            width:38px;
+            }
+        #vline {
+	        position: absolute;
+	        margin-top:-22px;
+	        margin-left:4px;
+            height:46px;
+            width:2px;
+        }
+
+#quitGame { 
+              background-image: url(image/quit_btn.png);
+}
+        #refresh {
+            background-image: url(image/back.png);
+            }
+        #submit {
+            background-image:url(image/play.png);
+        }
+
+        #close {
+            background-image:url(image/back.png);
+        }
+		
+		#startGame_btn{
+              background-image: url(image/sgame.png);		
+	}
+	#rules_btn{
+              background-image: url(image/rules1.png);		
+	}
+	#howToPlay_btn{
+              background-image: url(image/howToPlay1.png);		
+	}
+	#credit_btn{
+              background-image: url(image/credits.png);		
+	}
+	#logo{
+              background-image: url(image/game_name.png);		
+	}
+
+	
+        .horizantalLine {
+            height:2px;
+            width:38px;
+            cursor:pointer;
+        }
+        .verticalLine {
+            height:34px;
+            width:2px;
+            cursor:pointer;
+        }
+        #perComp {
+            background-color:#6c25aa;
+        }
+        #perPlayer {
+            background-color:#17fbfb;
+            color:black;
+        }
+
+        #square {
+
+	        position:absolute;
+	        margin-top:-23px;
+	        margin-left:-2px;
+            height:48px;
+            width:42px;
+            border-radius:3px;
+        }
+
+        #red {
+            height:30px;
+            width:30px;
+            background-color:red;
+        }
+        #blue {
+            height:30px;
+            width:30px;
+            background-color:blue;
+        }
+
+        #rules {
+            position:static;
+            margin-bottom: 100px;
+        }
+    
+        #dot {
+            width: 10px;
+            border-radius:30px;
+        }
+
+        .button {
+            width:144px;
+            height:47px;
+			border-radius:10px;
+  
+        }
+		
+		.gameButton{
+		width:300px;
+		height:65px;
+		border-radius:20px;
+		}
+
+         #gameTable tr:nth-child(odd){
+        
+         }
+        #gameTable tr::after {
+            margin-bottom:0px;
+        } 
+
+
+         #gameTable tr:nth-child(even) td:nth-child(odd){
+            width:1px;
+
+         }
+
+         #gameTable tr:nth-child(odd) td:nth-child(even){
+            
+
+
+         }
