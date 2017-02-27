@@ -34,9 +34,9 @@ function createTable() {
             if (i % 2 == 0 && j % 2 == 0)
                 table += "<td><img id='dot' src='image/black.gif'></td>";
             else if (i % 2 == 0 && j % 2 != 0)
-                table += "<td class='horizantalLine' id='" + i + "-" + j + "' onclick=makeHorizontalLine('" + i + "-" + j + "','P') onmouseover=hdottedline('" + i + "-" + j + "') onmouseleave=dismissline('" + i + "-" + j + "') ></td>";
+                table += "<td class='horizantalLine' id='" + i + "-" + j + "' onclick=makeHorizontalLine('" + i + "-" + j + "','P') ></td>";
             else if (i % 2 != 0 && j % 2 == 0)
-                table += "<td class='verticalLine' id='" + i + "-" + j + "' onclick=makeVerticalLine('" + i + "-" + j + "','P') onmouseover=vdottedline('" + i + "-" + j + "') onmouseleave=dismissline('" + i + "-" + j + "') ></td>";
+                table += "<td class='verticalLine' id='" + i + "-" + j + "' onclick=makeVerticalLine('" + i + "-" + j + "','P') ></td>";
             else if (i % 2 != 0 && j % 2 != 0)
                 table += "<td class='square' id='" + i + "-" + j + "' ></td>";
         }
